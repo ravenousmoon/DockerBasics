@@ -96,34 +96,54 @@
 
 <h2> <b> 5.	Пошук та витягування image контейнера за допомогою графічного інтерфейсу Docker Desktop </b> </h2>
 
-5.1.	В Docker Desktop у навігаційному меню ліворуч переходимо до вкладки `Images`. [(Скріншот)](Screenshots/5.1.png) <br></br>
-5.2.	В поле пошуку на верхній панелі навігації вказуємо `welcome-to-docker`, а потім натискаємо на кнопку `Pull`, щоб завантажити image. [(Скріншот)](Screenshots/5.2.png) <br></br> 
-5.3.	Після чого в `Images` натискаємо на назву завантаженого image, щоб відкрити його детальну інформацію. [(Скріншот)](Screenshots/5.3.png) <br></br>
-5.4.	Ця сторінка містить інформацію про шари, пакунки та бібліотеки, встановлені в image, а також будь-які виявлені вразливості. [(Скріншот)](Screenshots/5.4.png) <br></br>
+5.1. 	В Docker Desktop у навігаційному меню ліворуч переходимо до вкладки <b>Images</b>.
+<p align="left"> <img src="Screenshots/5.1.png" alt="Зображення 5.1"/> </p>
+5.2. 	В поле пошуку на верхній панелі навігації вказуємо <b>welcome-to-docker</b>, а потім натискаємо на кнопку <b>Pull</b>, щоб завантажити image.
+<p align="left"> <img src="Screenshots/5.2.png" alt="Зображення 5.2"/> </p>
+5.3. 	Після чого в <b>Images</b> натискаємо на назву завантаженого image, щоб відкрити його детальну інформацію.
+<p align="left"> <img src="Screenshots/5.3.png" alt="Зображення 5.3"/> </p>
+5.4. 	Ця сторінка містить інформацію про шари, пакунки та бібліотеки, встановлені в image, а також будь-які виявлені вразливості.
+<p align="left"> <img src="Screenshots/5.4.png" alt="Зображення 5.4"/> </p>
 
 <h2> <b> 6.	Створення та відправлення Docker image у репозиторій Docker Hub </b> </h2>
 
-6.1.	Заходимо в Docker Hub. В вкладці `Repositories` обираємо `Create repository` для створення репозиторію. Даємо назву `docker-quickstart` та робимо публічним. [(Скріншот)](Screenshots/6.1.png) <br></br>
-6.2.	Натискаємо кнопку `Create`, після чого створиться репозиторій. [(Скріншот)](Screenshots/6.2.png) <br></br>
-6.3.	В терміналі командного рядка клонуємо репозиторій GitHub за допомогою команди `git clone`. [(Скріншот)](Screenshots/6.3.png) <br></br>
-6.4.	Переходимо у щойно створений каталог. [(Скріншот)](Screenshots/6.4.png) <br></br>
-6.5.	Виконаємо команду `docker build`, щоб створити Docker image. [(Скріншот)](Screenshots/6.5.png) <br></br>
-6.6.	Виконаємо команду, щоб отримати список щойно створеного Docker image. [(Скріншот)](Screenshots/6.6.png) <br></br>
-6.7.	Запускаємо контейнер, щоб перевірити зображення, виконавши команду `docker run`. [(Скріншот)](Screenshots/6.7.png) <br></br>
-6.8.	Перевіряємо, чи контейнер працює, відвідавши веб-сайт <a>http://localhost:8080</a>. [(Скріншот)](Screenshots/6.8.png) <br></br>
-6.9.	Використовуємо `docker tag` команду, щоб створити тег на Docker image, що дозволяє позначати та версіонувати image. [(Скріншот)](Screenshots/6.9.png) <br></br>
-6.10.	Відправляємо щойно створений image у репозиторій Docker Hub за допомогою команди `docker push`. [(Скріншот)](Screenshots/6.10.png) <br></br>
-6.11.	Відкриваємо Docker Hub і переходимо до нашого репозиторію. Переходимо до розділу `Tags`, щоб переглянути щойно надісланий image. [(Скріншот)](Screenshots/6.11.png) <br></br>
+6.1. 	Заходимо в Docker Hub. В вкладці <b>Repositories</b> обираємо <b>Create repository</b> для створення репозиторію. Даємо назву <b>docker-quickstart</b> та робимо публічним.
+<p align="left"> <img src="Screenshots/6.1.png" alt="Зображення 6.1"/> </p>
+6.2. 	Натискаємо кнопку <b>Create</b>, після чого створиться репозиторій.
+<p align="left"> <img src="Screenshots/6.2.png" alt="Зображення 6.2"/> </p>
+6.3. 	В терміналі командного рядка клонуємо репозиторій GitHub за допомогою команди <b>git clone</b>.
+<p align="left"> <img src="Screenshots/6.3.png" alt="Зображення 6.3"/> </p>
+6.4. 	Переходимо у щойно створений каталог.
+<p align="left"> <img src="Screenshots/6.4.png" alt="Зображення 6.4"/> </p>
+6.5. 	Виконаємо команду <b>docker build</b>, щоб створити Docker image.
+<p align="left"> <img src="Screenshots/6.5.png" alt="Зображення 6.5"/> </p>
+6.6. 	Виконаємо команду, щоб отримати список щойно створеного Docker image.
+<p align="left"> <img src="Screenshots/6.6.png" alt="Зображення 6.6"/> </p>
+6.7. 	Запускаємо контейнер, щоб перевірити зображення, виконавши команду <b>docker run</b>.
+<p align="left"> <img src="Screenshots/6.7.png" alt="Зображення 6.7"/> </p>
+6.8. 	Перевіряємо, чи контейнер працює, відвідавши веб-сайт <a href="http://localhost:8080">http://localhost:8080</a>.
+<p align="left"> <img src="Screenshots/6.8.png" alt="Зображення 6.8"/> </p>
+6.9. 	Використовуємо <b>docker tag</b> команду, щоб створити тег на Docker image, що дозволяє позначати та версіонувати image.
+<p align="left"> <img src="Screenshots/6.9.png" alt="Зображення 6.9"/> </p>
+6.10. 	Відправляємо щойно створений image у репозиторій Docker Hub за допомогою команди <b>docker push</b>.
+<p align="left"> <img src="Screenshots/6.10.png" alt="Зображення 6.10"/> </p>
+6.11. 	Відкриваємо Docker Hub і переходимо до нашого репозиторію. Переходимо до розділу <b>Tags</b>, щоб переглянути щойно надісланий image.
+<p align="left"> <img src="Screenshots/6.11.png" alt="Зображення 6.11"/> </p>
 
 <h2> <b> 7.	Використання Docker Compose для запуску багатоконтейнерної програми </b> </h2>
 
-7.1.	Відкриваємо термінал та клонуємо зразок програми. [(Скріншот)](Screenshots/7.1.png) <br></br>
-7.2.	Переходимо до каталогу `todo-list-app`. [(Скріншот)](Screenshots/7.2.png) <br></br>
-7.3.	Використовуємо команду `docker compose up` для запуску програми. [(Скріншот)](Screenshots/7.3.png) <br></br>
-7.4.	Щоб переглянути сайт відкриємо <a>http://localhost:3000</a>. [(Скріншот)](Screenshots/7.4.png) <br></br>
-7.5.	В Docker Desktop вкладці `Containers` ми зможемо побачити контейнери і зануритися в їхню конфігурацію. [(Скріншот)](Screenshots/7.5.png) <br></br>
-7.6.	Щоб видалити контейнер, в терміналі скористаємося `docker compose down`. [(Скріншот)](Screenshots/7.6.png) <br></br>
-7.7.	В Docker Desktop вкладці `Containers` ми помічаємо, що контейнер видалився. [(Скріншот)](Screenshots/7.7.png) <br></br>
+7.1. 	Відкриваємо термінал та клонуємо зразок програми.
+<p align="left"> <img src="Screenshots/7.1.png" alt="Зображення 7.1"/> </p>
+7.2. 	Переходимо до каталогу <b>todo-list-app</b>.
+<p align="left"> <img src="Screenshots/7.2.png" alt="Зображення 7.2"/> </p>
+7.3. 	Використовуємо команду <b>docker compose up</b> для запуску програми.
+<p align="left"> <img src="Screenshots/7.3.png" alt="Зображення 7.3"/> </p>
+7.4. 	Щоб переглянути сайт, відкриємо <a href="http://localhost:3000">http://localhost:3000</a>.
+<p align="left"> <img src="Screenshots/7.4.png" alt="Зображення 7.4"/> </p>
+7.5. 	В Docker Desktop у вкладці <b>Containers</b> ми зможемо побачити контейнери і зануритися в їхню конфігурацію.
+<p align="left"> <img src="Screenshots/7.5.png" alt="Зображення 7.5"/> </p>
+7.6. 	Щоб видалити контейнер, в терміналі скористаємося <b>docker compose down</b>.
+<p align="left"> <img src="Screenshots/7.6.png" alt="Зображення 7.6"/> </p>
+7.7. 	В Docker Desktop у вкладці <b>Containers</b> ми помічаємо, що контейнер видалився.
+<p align="left"> <img src="Screenshots/7.7.png" alt="Зображення 7.7"/> </p>
  
-
-	
